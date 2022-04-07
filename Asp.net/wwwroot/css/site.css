@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Roboto&family=Sahitya&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    z-index: 999;
+    background-color: #1e212d;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    box-shadow: 0px 2px 5px #1e212d;
+}
+
+    header img {
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+nav {
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e212d;
+}
+
+.nav-ul.show {
+    transition: 0.5s;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #faf3e0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    color: #faf3e0;
+    list-style-type: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+    nav li:hover {
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+.home {
+    display: flex;
+    height: 100vh;
+    color: #faf3e0;
+    background-color: #b68973;
+    background-size: cover;
+}
+
+.home-img {
+    flex-basis: 100%;
+    background: url("img/home-bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0px 3px 10px #1e212d;
+}
+
+.home-txt {
+    position: absolute;
+    z-index: 100;
+    font-family: "Princess Sofia", sans-serif;
+    font-size: 27px;
+    top: 175px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+    .home-txt h1 {
+        margin-bottom: -25px;
+    }
+
+    .home-txt p {
+        font-family: "Sahitya", sans-serif;
+        font-size: 24px;
+    }
+
+
+
+.menus-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #b68973;
+    color: #1e212d;
+    padding: 100px;
+}
+
+.menus {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.favorite-menus {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes-menus {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.box-menu {
+    max-width: 25%;
+    flex-grow: 1;
+    padding: 5px;
+    padding-bottom: 20px;
+    background-color: #1e212d;
+    border-radius: 2px;
+    margin-right: 18px;
+    text-align: center;
+    box-shadow: 3px 3px 10px #1e212d;
+}
+
+.img-menu {
+    width: 100%;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px #1e212d;
+}
+
+.caramel-macchiato {
+    background: url("img/caramel-macchiato.jpg");
+    background-size: cover;
+}
+
+.caramel-latte {
+    background: url("img/latte.jpg");
+    background-size: cover;
+}
+
+.cappuccino {
+    background: url("img/cappuccino.jpg");
+    background-size: cover;
+}
+
+.affogato {
+    background: url("img/affogato.jpg");
+    background-size: cover;
+}
+
+.espresso {
+    background: url("img/espresso.jpg");
+    background-size: cover;
+}
+
+.ice-lemon-tea {
+    background: url("img/ice-lemon-tea.jpg");
+    background-size: cover;
+}
+
+.orange-juice {
+    background: url("img/orange-juice.jpg");
+    background-size: cover;
+}
+
+.thai-tea {
+    background: url("img/thai-tea.jpg");
+    background-size: cover;
+}
+
+.name-menu h4,
+.name-menu p {
+    color: #faf3e0;
+}
+
+aside {
+    background-color: #faf3e0;
+    display: flex;
+    flex-direction: column;
+    background-color: #faf3e0;
+    color: #1e212d;
+    padding: 100px;
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.profile-background {
+    height: 100vh;
+    border-radius: 10px;
+    width: 100%;
+    color: #faf3e0;
+    background-color: #1e212d;
+    box-shadow: 3px 3px 10px #1e212d;
+    padding: 10px;
+}
+
+
+.profile {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company-background {
+    height: 100vh;
+    border-radius: 10px;
+    width: 100%;
+    color: #faf3e0;
+    background-color: #1e212d;
+    box-shadow: 3px 3px 10px #1e212d;
+    padding: 10px;
+}
+
+.company-profile {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.informations {
+    flex-grow: 1;
+    line-height: 23px;
+}
+
+    .informations h1 {
+        font-size: 25px;
+    }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    background-color: #b68973;
+    padding: 15px;
+    color: #1e212d;
+    text-align: center;
+}
+
+    footer img {
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+.copyright {
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+.more-informations {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .foto {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 200px;
+        height: 200px;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column !important;
+    }
+
+        footer #logo-footer {
+            width: 50%;
+        }
+}
+
+.list-none {
+    list-style-type: none;
+    padding: 0;
+}
